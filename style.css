@@ -1,0 +1,39 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    background: #007bff;
+    color: white;
+}
+
+/* About Me Section */
+#about {
+    background: #f8f9fa;
+}
+
+/* Portfolio Section */
+#portfolio .card {
+    border: none;
+    transition: transform 0.2s;
+}
+
+#portfolio .card:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Section */
+#contact {
+    background: #f8f9fa;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    header img {
+        width: 100px;
+        height: 100px;
+    }
+}
